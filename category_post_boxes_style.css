@@ -1,0 +1,35 @@
+.category-post-boxes-container{
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	overflow: auto;
+}
+
+.category-post-boxes-a-box-wrapper{
+	width: 31%;
+	float: left;
+	margin: 1%;
+	padding: 0px;
+	border: 0px;
+	background-color: #000000;
+	color: #FFFFFF;
+	-o-transition:.5s;
+	-ms-transition:.5s;
+	-moz-transition:.5s;
+	-webkit-transition:.5s;
+	transition:.5s;
+}
+
+.category-post-boxes-a-box-wrapper:hover{
+	background-color: #EEEEEE;
+	color: #333333;
+}
+
+.category-post-boxes-a-box-content{
+	padding: 18px;
+	font: 15px Helvetica, Arial, sans-serif;
+	min-height: 100px;
+	max-height: 100px;
+	overflow: hidden;
+}
